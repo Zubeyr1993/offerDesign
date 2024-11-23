@@ -1,0 +1,30 @@
+// Primary color variables
+$primary-sky-white: #f8f8f8;
+$primary-warm-gray: #f3e7d8;
+$primary-solar-black: #292929;
+$primary-nature-green: #003a00;
+$primary-green-energy: #00c45b;
+$primary-contrast1: #002700;
+$primary-contrast2: #e5ffe4;
+
+// Secondary color variables
+$secondary-sun-yellow: #ffa500;
+$secondary-electric-blue: #0f64ff;
+$secondary-digital-blue: #0041cd;
+$secondary-sea-blue: #001e6e;
+$secondary-sky-blue: #d2e1ff;
+$secondary-clear-sky-blue: #f0faff;
+
+// Custom breakpoints
+$grid-breakpoints: (
+  sm: 0,
+  md: 1000px,
+);
+
+// Container max-widths
+$container-max-widths: (
+  sm: 100%,
+  // Full width for screens smaller than 1000px
+  md: 1000px,
+  // Max width of 1000px for screens 1000px and above
+);

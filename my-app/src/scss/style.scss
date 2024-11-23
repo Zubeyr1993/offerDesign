@@ -1,0 +1,79 @@
+.p-30 {
+  padding: 30px;
+}
+
+.p-24 {
+  padding: 24px;
+}
+
+.m-30 {
+  margin: 30px;
+}
+
+.m-24 {
+  margin: 24px;
+}
+
+.px-30 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.px-24 {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.mx-30 {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.mx-24 {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+.content-area {
+  background-color: $primary-warm-gray;
+}
+
+#first-section {
+  background-color: $primary-contrast2;
+  position: relative;
+  min-height: 380px;
+
+  h1 {
+    font-size: 40px;
+    color: $primary-solar-black;
+    position: absolute;
+    bottom: 113px;
+  }
+
+  h2 {
+    position: absolute;
+    bottom: 37px;
+    line-height: 26px;
+    font-size: 18px;
+  }
+
+  .soren {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    @media (max-width: 400px) {
+      width: 50%; // Scale down to 75% for screens below 400px
+    }
+  }
+
+  .graph-element-1 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}
