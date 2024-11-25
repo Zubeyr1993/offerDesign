@@ -1,25 +1,26 @@
 {
-  "name": "my-app",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "build:scss": "sass --load-path=node_modules ./src/scss/main.scss ./src/css.css --watch"
-  },
-  "dependencies": {
-    "bootstrap": "^5.3.3",
-    "next": "15.0.3",
-    "react": "19.0.0-rc-66855b96-20241106",
-    "react-dom": "19.0.0-rc-66855b96-20241106"
-  },
-  "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "sass": "1.77.6",
-    "typescript": "^5"
-  }
+	"name": "my-app",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"bootstrap": "^5.3.3",
+		"next": "15.0.3",
+		"react": "19.0.0-rc-66855b96-20241106",
+		"react-bootstrap": "^2.10.5",
+		"react-dom": "19.0.0-rc-66855b96-20241106",
+		"sass": "^1.81.0",
+		"swiper": "^11.1.15"
+	},
+	"devDependencies": {
+		"@types/node": "^20",
+		"@types/react": "^18",
+		"@types/react-dom": "^18",
+		"typescript": "^5"
+	}
 }

@@ -6,6 +6,7 @@ $primary-nature-green: #003a00;
 $primary-green-energy: #00c45b;
 $primary-contrast1: #002700;
 $primary-contrast2: #e5ffe4;
+$primary-fafafa: #fafafa;
 
 // Secondary color variables
 $secondary-sun-yellow: #ffa500;
@@ -17,14 +18,18 @@ $secondary-clear-sky-blue: #f0faff;
 
 // Custom breakpoints
 $grid-breakpoints: (
-  sm: 0,
-  md: 1000px,
+	sm: 0,
+	md: 1000px,
 );
 
 // Container max-widths
 $container-max-widths: (
-  sm: 100%,
-  // Full width for screens smaller than 1000px
-  md: 1000px,
-  // Max width of 1000px for screens 1000px and above
+	sm: 100%,
+	// Full width for screens smaller than 1000px
+	md: 1000px,
+	// Max width of 1000px for screens 1000px and above
 );
+:root {
+	--dm-sans: "DM Sans", sans-serif;
+	--filson-pro: "Filson Pro", sans-serif;
+}
